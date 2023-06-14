@@ -62,7 +62,7 @@ function eliminarPropiedad(objeto, propiedad) {
    // Debes eliminarla del objeto y retornarlo finalmente.
    // Tu código:
    delete objeto[propiedad]
-   return objeto
+   return objeto;
 }
 
 function tieneEmail(objetoUsuario) {
